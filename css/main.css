@@ -26,7 +26,7 @@ html, body {
 }
 
 ul {
-  width: 60%;
+  width: 990px;
   height: 300px;
   /* vertical, horizontal centering */
   display: block;
@@ -39,9 +39,10 @@ ul {
 }
 
 li {
-  width: 33%;
+  width: 330px;
   display: inline-block;
   text-align: center;
+  letter-spacing: normal;
   transition: .2s linear;
 }
 
