@@ -71,8 +71,11 @@ li:hover {
   margin: auto;
   background: #454545;
   filter: blur(300px);
-  -webkit-filter:blur(300px);
-  -moz-filter:blur(300px);
-  -o-filter:blur(300px);
-  -ms-filter:blur(300px);
+}
+
+/* use IE? it's so sad... */
+@media all and (-ms-high-contrast:none) {
+  .blur {
+    display: none;
+  }
 }
