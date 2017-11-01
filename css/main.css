@@ -25,6 +25,13 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 15vh;
+  font-weight: bold;
+}
+
 ul {
   width: 990px;
   height: 300px;
@@ -75,6 +82,13 @@ li:hover {
 
 /* use IE? it's so sad... */
 @media all and (-ms-high-contrast:none) {
+  .blur {
+    display: none;
+  }
+}
+
+/* also firefox cant display correctly */
+@-moz-document url-prefix() {
   .blur {
     display: none;
   }
